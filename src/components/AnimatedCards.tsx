@@ -1,5 +1,6 @@
 "use client"
 import { useEffect } from "react"
+import Card from "./Card"
 
 const AnimatedCards = () => {
     useEffect(() => {
@@ -16,23 +17,30 @@ const AnimatedCards = () => {
           }   
       }, [])
   return (
-<div id="cards" className="grid grid-cols-4 gap-5 h-96">
-  <div className="card">
-    <div className="card-content">
-      <div className="card-image">
-        <i className="fa-duotone fa-apartment"></i>
-      </div>
-      <div className="card-info-wrapper">
-        <div className="card-info">
-          <i className="fa-duotone fa-apartment"></i>
-          <div className="card-info-title">
+<main id="cards" className="grid grid-cols-4 gap-5 h-96">
+    <Card>
+    <div className="card-info-title">
             <h3>Apartments</h3>  
             <h4>Places to be apart. Wait, what?</h4>
-          </div>    
-        </div>
-      </div>
-    </div>
-  </div>
+          </div>  
+    </Card>
+    <Card>
+    <div className="card-info-title">
+            <h3>Apartments</h3>  
+            <h4>Places to be apart. Wait, what?</h4>
+          </div>  
+    </Card>    <Card>
+    <div className="card-info-title">
+            <h3>Apartments</h3>  
+            <h4>Places to be apart. Wait, what?</h4>
+          </div>  
+    </Card>    <Card>
+    <div className="card-info-title">
+            <h3>Apartments</h3>  
+            <h4>Places to be apart. Wait, what?</h4>
+          </div>  
+    </Card>
+
   <div className="card">
     <div className="card-content">
       <div className="card-image">
@@ -113,7 +121,7 @@ const AnimatedCards = () => {
       </div>
     </div>
   </div>
-</div>  )
+</main>  )
 }
 
 export default AnimatedCards
