@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import {  Fjalla_One} from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const fjala = Fjalla_One({ weight: "400",subsets:["latin"] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`  bg-zinc-950 text-main400 w-full min-h-screen ${inter.className}`}>{children}</body>
+      <body className={`  bg-main text-main600 w-full min-h-screen ${fjala.className}`}>{children}</body>
     </html>
   )
 }

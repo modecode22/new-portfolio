@@ -15,7 +15,7 @@ export default function Home() {
        */}
       {/* <div className='bg-gradient-to-t from-main400/10 via-main400/50 to-main400/10 h-full w-[0.09rem] rounded-full '>
       </div> */}
-
+{/* some comment  */}
 
 <nav className='py-2 h-full flex justify-center  items-center w-full gap-1'>
 
