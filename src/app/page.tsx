@@ -39,7 +39,7 @@ export default function Home() {
 <MdGroups className='w-6 h-6 fill-main400' /> 
 </section>
 
-
+{/* gg */}
 
 </nav>
 
