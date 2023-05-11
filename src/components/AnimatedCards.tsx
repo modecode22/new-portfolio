@@ -18,46 +18,78 @@ const AnimatedCards = () => {
           }   
       }, [])
   return (
-<main id="cards" className="grid grid-cols-2 md:grid-cols-3 gap-5 h-full">
+<main id="cards" className="max-w-6xl w-full grid grid-cols-2 md:grid-cols-3 gap-5 h-full">
     <section className="group w-full aspect-square brightness-95 hover:brightness-105 duration-400 transition-all select-none  ">
     <Card>
     <div className="card-info-title">
       <section className="relative w-full aspect-video rounded-lg ">
-        <Image fill src={"/image.jpg"} alt="" className="group-hover:-translate-y-1 duration-200 transition-all group-hover:shadow-md group-hover:shadow-main rounded-lg" /> 
+        <Image fill src={"/image.jpg"} alt="" className="group-hover:-translate-y-1 duration-200 transition-all group-hover:shadow-md group-hover:shadow-main200/10 rounded-lg" /> 
       </section>
-            <h3>Apartments</h3>  
+      <section className="p-2 ">
+      <h3>Apartments</h3>  
             <h4>Places to be apart. Wait, what?</h4>
+      </section>
           </div>  
     </Card>
     </section>
-    <section className="w-full aspect-square">
+    <section className="group w-full aspect-square brightness-95 hover:brightness-105 duration-400 transition-all select-none  ">
     <Card>
     <div className="card-info-title">
       <section className="relative w-full aspect-video rounded-lg ">
-        <Image fill src={"/image.jpg"} alt="" className="rounded-lg" /> 
+        <Image fill src={"/image.jpg"} alt="" className="group-hover:-translate-y-1 duration-200 transition-all group-hover:shadow-md group-hover:shadow-main200/10 rounded-lg" /> 
       </section>
-            <h3>Apartments</h3>  
+      <section className="p-2 ">
+      <h3>Apartments</h3>  
             <h4>Places to be apart. Wait, what?</h4>
+      </section>
           </div>  
     </Card>
-    </section>    <section className="w-full aspect-square">
+    </section>    <section className="group w-full aspect-square brightness-95 hover:brightness-105 duration-400 transition-all select-none  ">
     <Card>
     <div className="card-info-title">
       <section className="relative w-full aspect-video rounded-lg ">
-        <Image fill src={"/image.jpg"} alt="" className="rounded-lg" /> 
+        <Image fill src={"/image.jpg"} alt="" className="group-hover:-translate-y-1 duration-200 transition-all group-hover:shadow-md group-hover:shadow-main200/10 rounded-lg" /> 
       </section>
-            <h3>Apartments</h3>  
+      <section className="p-2 ">
+      <h3>Apartments</h3>  
             <h4>Places to be apart. Wait, what?</h4>
+      </section>
           </div>  
     </Card>
-    </section>    <section className="w-full aspect-square">
+    </section>    <section className="group w-full aspect-square brightness-95 hover:brightness-105 duration-400 transition-all select-none  ">
     <Card>
     <div className="card-info-title">
       <section className="relative w-full aspect-video rounded-lg ">
-        <Image fill src={"/image.jpg"} alt="" className="rounded-lg" /> 
+        <Image fill src={"/image.jpg"} alt="" className="group-hover:-translate-y-1 duration-200 transition-all group-hover:shadow-md group-hover:shadow-main200/10 rounded-lg" /> 
       </section>
-            <h3>Apartments</h3>  
+      <section className="p-2 ">
+      <h3>Apartments</h3>  
             <h4>Places to be apart. Wait, what?</h4>
+      </section>
+          </div>  
+    </Card>
+    </section>    <section className="group w-full aspect-square brightness-95 hover:brightness-105 duration-400 transition-all select-none  ">
+    <Card>
+    <div className="card-info-title">
+      <section className="relative w-full aspect-video rounded-lg ">
+        <Image fill src={"/image.jpg"} alt="" className="group-hover:-translate-y-1 duration-200 transition-all group-hover:shadow-md group-hover:shadow-main200/10 rounded-lg" /> 
+      </section>
+      <section className="p-2 ">
+      <h3>Apartments</h3>  
+            <h4>Places to be apart. Wait, what?</h4>
+      </section>
+          </div>  
+    </Card>
+    </section>    <section className="group w-full aspect-square brightness-95 hover:brightness-105 duration-400 transition-all select-none  ">
+    <Card>
+    <div className="card-info-title">
+      <section className="relative w-full aspect-video rounded-lg ">
+        <Image fill src={"/image.jpg"} alt="" className="group-hover:-translate-y-1 duration-200 transition-all group-hover:shadow-md group-hover:shadow-main200/10 rounded-lg" /> 
+      </section>
+      <section className="p-2 ">
+      <h3>Apartments</h3>  
+            <h4>Places to be apart. Wait, what?</h4>
+      </section>
           </div>  
     </Card>
     </section>

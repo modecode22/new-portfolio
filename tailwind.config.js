@@ -8,13 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        main: "#020608",
-        main100:"#012340",
-        main200:"#3F618C",
-        main300:"#f58ca8",
-        main400:"#8C2656",
-        main500:"#F20544",
-        main600:"#fffafc"
+        main: "#171717",
+        main100:"#212224",
+        main200:"#3C3C48",
+        main300:"#2C74B3",
+        main400:"#608db5",
+        main500:"#406382",
+        main600:"#DEEFFF"
       }
     },
   },

@@ -6,19 +6,40 @@
 
 
 :root {
-  --bg: #000000;
+  --bg: #000b14;
   --clr-1: #2C74B3;
-  --clr-2: #f58ca8;
-  --clr-3: #608db5;
-  --clr-4: #F20544;
+  --clr-2: #2197ff;
+  --clr-3: #deefff;
+  --clr-4: #82c5ff;
 --gg-5:#020608;
 }
 
 :root {
-    --bg-color: rgb(20, 20, 20);
-    --card-color: rgb(23, 23, 23);
+    --bg-color: #012340;
+    --card-color: #212224;
   }
   
+  .typing {
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
 
 
   #cards:hover > .card::after {
@@ -78,7 +99,6 @@
     flex-direction: column;
     flex-grow: 1;
     inset: 1px;
-    padding: 10px;
     position: absolute;
     z-index: 2;
   }
