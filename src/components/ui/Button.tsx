@@ -2,6 +2,9 @@ import { cn } from '@/lib/utils';
 import { VariantProps, cva } from 'class-variance-authority';
 import React, { ButtonHTMLAttributes } from 'react'
 import {AiOutlineLoading} from 'react-icons/ai'
+
+
+//  change the themes of the bottons 
 const buttonVariants = cva(
     "flex justify-center items-center py-1 px-2 rounded-xl disabled:bg-slate-600/50 hover:brightness-95 active:brightness-105 duration-100 transition-all text-slate-50 shadow-sm disabled:brightness-90 select-none",
     {
