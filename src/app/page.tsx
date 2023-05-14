@@ -14,6 +14,8 @@ export default function Home() {
    <Header /> 
 <Hero /> 
       <AnimatedCards />
+      <AnimatedCards /><AnimatedCards /><AnimatedCards /><AnimatedCards />
+      <div id='all'>hhhhhhhhhhhhhhh</div>
     </>
   )
 }
