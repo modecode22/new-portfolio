@@ -14,13 +14,16 @@ html {
   --clr-3: #deefff;
   --clr-4: #82c5ff;
 --gg-5:#020608;
+--bg-color: #012340;
+--card-color: #212224;
 }
 
-:root {
-    --bg-color: #012340;
-    --card-color: #212224;
-  }
-  
+.lol{
+  filter: grayscale();
+  animation: typing 1s steps(3), blink .5s step-end infinite alternate;  
+}
+
+
   .typing {
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;

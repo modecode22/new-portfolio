@@ -18,7 +18,7 @@ const AnimatedCards = () => {
           }   
       }, [])
   return (
-<main id="cards" className="max-w-6xl w-full grid grid-cols-2 md:grid-cols-3 gap-5 h-full">
+<main id="cards" className="max-w-6xl p-5 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-full">
     <section className="group w-full aspect-square brightness-95 hover:brightness-105 duration-400 transition-all select-none  ">
     <Card>
     <div className="card-info-title">

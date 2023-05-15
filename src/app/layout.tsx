@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`   items-center flex-col flex p-6   gap-6 bg-main text-main600 w-full min-h-screen ${fjala.className}`}>{children}</body>
+      <body className={`   items-center flex-col flex    gap-6 bg-main text-main600 w-full min-h-screen ${fjala.className}`}>{children}</body>
     </html>
   )
 }
