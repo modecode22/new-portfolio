@@ -1,5 +1,4 @@
-import Image from "next/image"
-
+import Image from 'next/image'
 
 const AnimatedText = ({img,children}:{children:React.ReactNode, img:string}) => {
   return (

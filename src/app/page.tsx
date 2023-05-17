@@ -16,8 +16,9 @@ export default function Home() {
 <Hero /> 
 <Skills /> 
       <AnimatedCards />
-      <AnimatedCards /><AnimatedCards /><AnimatedCards /><AnimatedCards />
-      <div id='all'>the footer</div>
+      <AnimatedCards />
+      <AnimatedCards />
+      <AnimatedCards />
     </>
   )
 }
