@@ -8,7 +8,7 @@ import AnimatedCards from '@/components/AnimatedCards'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Skills from '@/components/Skills'
-import TheParticles from '@/components/TheParticles'
+import AnimatedStars from '@/components/AnimatedStars'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
    <Header />
    <main className='w-full h-screen relative'>
 
-   <TheParticles />  
+   <AnimatedStars starCount={150} minSize={10} key={Math.random()} />  
    </main>
 <Hero /> 
 <Skills /> 
